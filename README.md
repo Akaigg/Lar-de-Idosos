@@ -1,8 +1,8 @@
-# Lar-de-Idosos 
+Lar-de-Idosos 
 
 # Requisitos do Sistema
 
-2.1 Requisitos Funcionais
+# Requisitos Funcionais
 
 # 2.1.1 Gestão de Usuários
 RF01: O sistema deve permitir o cadastro de usuários (administradores, cuidadores e familiares).

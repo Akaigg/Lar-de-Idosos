@@ -34,26 +34,40 @@
 # 2.2 Requisitos Não Funcionais (RNF)
 
 # 2.2.1 Usabilidade
-- RNF01: O sistema deve ter interface simples e intuitiva.
+- RNF01: A interface deve ser simples o suficiente para que um cuidador ou enfermeiro sem experiência avançada em tecnologia consiga cadastrar um idoso ou registrar uma medicação em menos de 90 segundos.
 - RNF02: O sistema deve ter linguagem clara e acessível.
-- RNF03: O sistema deve ser utilizável por pessoas com baixo conhecimento técnico.
+- RNF03: Tempo médio de treinamento para novos funcionários do lar deve ser de 1 hora.
+- RNF04: Feedback visual claro (confirmações em verde/vermelho) ao fazer registros.
 # 2.2.2 Desempenho
-- RNF04: O sistema deve responder às ações do usuário em até 3 segundos.
-- RNF05: O sistema deve suportar múltiplos usuários simultâneos sem perda de desempenho.
+- RNF05: O sistema deve responder às ações do usuário em até 2 segundos.
+- RNF06: O sistema deve suportar múltiplos usuários simultâneos sem perda de desempenho.
+- RNF07: Uso de CPU não deve exceder 30% em operações normais no cliente.
+- RNF08: O sistema deve suportar carregamento de página em até 2 segundos.
+- RNF09: Registros devem ser salvos e confirmados em menos de 2 segundos.
 # 2.2.3 Segurança
-- RNF06: O sistema deve proteger dados sensíveis (criptografia de senha).
-- RNF07: O sistema deve garantir controle de acesso por nível de usuário.
-- RNF08: O sistema deve seguir boas práticas da LGPD.
+- RNF10: O sistema deve proteger dados sensíveis (criptografia de senha).
+- RNF11: O sistema deve garantir controle de acesso por nível de usuário.
+- RNF12: O sistema deve seguir boas práticas da LGPD.
+- RNF13: Bloqueio automático de conta após 5 tentativas inválidas de login.
 # 2.2.4 Confiabilidade
-- RNF09: O sistema deve ter disponibilidade mínima de 95%.
-- RNF10: O sistema deve evitar perda de dados em caso de falha.
+- RNF14: O sistema deve ter disponibilidade mínima de 95%.
+- RNF15: Taxa de falha de transações não deve exceder 0,1%.
+- RNF16: O sistema deve evitar perda de dados em caso de falha.
+- RNF17: Taxa de erro em registros de medicamentos deve ser inferior a 0,01%.
 # 2.2.5 Escalabilidade
-- RNF11: O sistema deve permitir aumento de usuários sem necessidade de grandes mudanças.
-- RNF12: O sistema deve suportar expansão para múltiplas unidades de lar de idosos.
+- RNF18: O sistema deve suportar aumento de 5x na quantidade de usuários simultâneos sem degradação significativa de desempenho.
+- RNF19: Capacidade de lidar com picos de uso sem degradação.
+- RNF20: Banco de dados deve suportar até 300 registros ativos com tempo de consulta abaixo de 5 segundos.
+- RNF21: Arquitetura deve permitir deploy em cloud com auto-scaling.
 # 2.2.6 Manutenibilidade
-- RNF13: O sistema deve possuir código organizado e documentado.
-- RNF14: O sistema deve permitir atualizações sem interromper totalmente o serviço.
+- RNF22: O sistema deve possuir código organizado e documentado.
+- RNF23: O sistema deve permitir atualizações sem interromper totalmente o serviço.
+- RNF24: O código deve ter cobertura de testes automatizados ≥ 80% nas camadas críticas.
+- RNF25: Documentação técnica atualizada no repositório
 # 2.2.7 Compatibilidade
-- RNF15: O sistema deve ser compatível com navegadores modernos.
+- RNF26: O sistema deve ser compatível com os últimos 3 versões dos navegadores Chrome, Firefox, Edge e Safari.
+- RNF27: Funcionar perfeitamente em desktops e notebooks.
 # 2.2.8 Acessibilidade
-- RNF16: O sistema deve seguir diretrizes básicas de acessibilidade.
+- RNF28: O sistema deve seguir diretrizes básicas de acessibilidade.
+- RNF29: O sistema deve estar em conformidade com WCAG 2.2 (mínimo:nível AA).
+- RNF30: Suporte a aumento de fonte até 200% e zoom de tela sem perda de funcionalidade.

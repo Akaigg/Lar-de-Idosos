@@ -5,7 +5,7 @@
 - RF02: O sistema deve permitir login e logout com autenticação segura.
 - RF03: O sistema deve permitir diferentes níveis de acesso conforme o perfil do usuário.
 - RF04: O administrador deve poder editar e excluir usuários.
-# 2.1.2 Cadastro de Idosos (Residentes)
+# 2.1.2 Cadastro de Idosos
 - RF06: O sistema deve permitir o cadastro completo dos residentes (nome, idade, histórico médico, contatos, etc.).
 - RF07: O sistema deve permitir a edição dos dados dos residentes.
 - RF08: O sistema deve permitir a exclusão de residentes.
